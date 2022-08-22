@@ -11,7 +11,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/signin" element={<SignInAndOut />} />
-          <Route path="/shop" element={<SignInAndOut />} />
         </Routes>
       </BrowserRouter>
     </div>
